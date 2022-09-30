@@ -1,3 +1,12 @@
+/* 
+ * Kelompok 10
+ * AMSAL ANUGRAH | 2502048666
+ * KEVIN LAURENT OKTAVIAN PUTRA | 2540123044
+ * LOVINA ANABELLE CITRA | 2540121322
+ * MATTHEW AVEL WILEM | 2201826632
+ */
+
+
 public class Assignment_1 {
 
 	public static void main(String[] args) {
@@ -104,7 +113,7 @@ public class Assignment_1 {
 	    double pi = 3.14, radius = 5.5;
 	    double parameter = (double)2 * radius * pi;
 	    double area = radius * radius * pi;
-	    System.out.println("Parameter= " + parameter);
+	    System.out.println("Perimeter= " + parameter);
 	    System.out.println("Area= " + area);
 	    System.out.println();
 	    
@@ -133,8 +142,10 @@ public class Assignment_1 {
 	    double total_birth = 0, total_death = 0, total_NewImmigrant = 0;
 	    double leap_year_birth, leap_year_death, leap_year_NewImmigrant;
 	    
+		// Code Includes Leap Year!
+		// Kode Menghitung Tahun Kabisat!
 	    for (int i=1; i<6; i++) {
-	    	if(i==4) {
+	    	if(i%4==0) {
 	    		leap_year_birth = (double)(leap_year)/cases[0];
 		    	leap_year_death = (double)(leap_year)/cases[1];
 		    	leap_year_NewImmigrant = (double)(leap_year)/cases[2];
@@ -158,6 +169,8 @@ public class Assignment_1 {
 	    	
 
 	    }
+		System.out.println("PS: Calculation Also Includes Leap Year."); 
+		System.out.println("PS: Perhitungan Juga Menghitung Tahun Kabisat.");
 	    System.out.println(); 
 	    
 	    //Nomor 1.12
